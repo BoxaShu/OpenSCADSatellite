@@ -85,6 +85,14 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="bin\Debug\OpenSCADSatellite.exe.config" />
+    <None Include="bin\Debug\OpenSCADSatellite.vshost.exe.config" />
+    <None Include="bin\Debug\OpenSCADSatellite.vshost.exe.manifest" />
+    <None Include="bin\Debug\Scripts\simple.xls" />
+    <None Include="bin\Release\OpenSCADSatellite.exe.config" />
+    <None Include="bin\Release\OpenSCADSatellite.vshost.exe.config" />
+    <None Include="bin\Release\OpenSCADSatellite.vshost.exe.manifest" />
+    <None Include="bin\Release\Scripts\simple.xls" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -99,6 +107,21 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="bin\Debug\OpenSCADSatellite.exe" />
+    <Content Include="bin\Debug\OpenSCADSatellite.pdb" />
+    <Content Include="bin\Debug\OpenSCADSatellite.vshost.exe" />
+    <Content Include="bin\Debug\Scripts\JSCode.js" />
+    <Content Include="bin\Debug\Scripts\NotepadLoader.js" />
+    <Content Include="bin\Debug\Scripts\SiteLoader.js" />
+    <Content Include="bin\Debug\Scripts\xlsLoader.js" />
+    <Content Include="bin\Release\OpenSCADSatellite.exe" />
+    <Content Include="bin\Release\OpenSCADSatellite.pdb" />
+    <Content Include="bin\Release\OpenSCADSatellite.vshost.exe" />
+    <Content Include="bin\Release\Scripts\JSCode.js" />
+    <Content Include="bin\Release\Scripts\NotepadLoader.js" />
+    <Content Include="bin\Release\Scripts\SiteLoader.js" />
+    <Content Include="bin\Release\Scripts\xlsLoader.js" />
+    <Content Include="OpenSCADSatellite.exe" />
     <Content Include="Scripts\JSCode.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

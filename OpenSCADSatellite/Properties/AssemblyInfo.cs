@@ -18,7 +18,7 @@ using System.Windows;
 [assembly: AssemblyProduct("OpenSCADSatellite")]
 [assembly: AssemblyCopyright("Copyright © Vladimir Shulzhitskiy, 2015")]
 [assembly: AssemblyTrademark("Vladimir Shulzhitskiy")]
-[assembly: AssemblyCulture("Ru-ru")]
+[assembly: AssemblyCulture("")]
 
 // Параметр ComVisible со значением FALSE делает типы в сборке невидимыми 
 // для COM-компонентов.  Если требуется обратиться к типу в этой сборке через 
