@@ -88,6 +88,7 @@
     <None Include="bin\Debug\OpenSCADSatellite.exe.config" />
     <None Include="bin\Debug\OpenSCADSatellite.vshost.exe.config" />
     <None Include="bin\Debug\OpenSCADSatellite.vshost.exe.manifest" />
+    <None Include="bin\Debug\Scripts\dwg_ru_dnl_13530\Некоторые пояснения к программе.doc" />
     <None Include="bin\Debug\Scripts\simple.xls" />
     <None Include="bin\Release\OpenSCADSatellite.exe.config" />
     <None Include="bin\Release\OpenSCADSatellite.vshost.exe.config" />
@@ -98,6 +99,7 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
+    <None Include="Scripts\dwg_ru_dnl_13530\Некоторые пояснения к программе.doc" />
     <None Include="Scripts\simple.xls">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -110,6 +112,8 @@
     <Content Include="bin\Debug\OpenSCADSatellite.exe" />
     <Content Include="bin\Debug\OpenSCADSatellite.pdb" />
     <Content Include="bin\Debug\OpenSCADSatellite.vshost.exe" />
+    <Content Include="bin\Debug\Scripts\dwg_ru_dnl_13530.js" />
+    <Content Include="bin\Debug\Scripts\dwg_ru_dnl_13530\Эпюры.exe" />
     <Content Include="bin\Debug\Scripts\JSCode.js" />
     <Content Include="bin\Debug\Scripts\NotepadLoader.js" />
     <Content Include="bin\Debug\Scripts\SiteLoader.js" />
@@ -122,6 +126,10 @@
     <Content Include="bin\Release\Scripts\SiteLoader.js" />
     <Content Include="bin\Release\Scripts\xlsLoader.js" />
     <Content Include="OpenSCADSatellite.exe" />
+    <Content Include="Scripts\dwg_ru_dnl_13530.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\dwg_ru_dnl_13530\Эпюры.exe" />
     <Content Include="Scripts\JSCode.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

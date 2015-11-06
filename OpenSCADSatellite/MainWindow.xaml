@@ -3,8 +3,20 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="OpenSCADSatellite" Height="350" Width="525">
     <Grid>
-        <Button Content="Загрузить список приложений" Margin="10,10,300,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <ListBox x:Name="ListScript" Margin="10,37,10,10" SelectionChanged="ListScript_SelectionChanged"/>
+        <TabControl Margin="0,0,0,10" SelectionChanged="TabControl_SelectionChanged">
+            <TabItem x:Name="TabLocal" Header="Установленные">
+                <Grid Background="#FFE5E5E5">
+                    <ListBox x:Name="ListScript" SelectionChanged="ListScript_SelectionChanged"/>
+
+                </Grid>
+
+            </TabItem>
+            <TabItem x:Name="TabURL" Header="В сети" Height="23" VerticalAlignment="Bottom">
+                <Grid Background="#FFE5E5E5">
+                    <ListBox x:Name="ListScriptUrl"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
 
     </Grid>
 </Window>

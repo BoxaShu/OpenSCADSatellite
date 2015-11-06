@@ -9,10 +9,10 @@ package Script
             return "Запуск простого JS кода";
         }
         
-        function Do(x, y)
+        function Do(pathToProgramm)
         {
             var rnd = new Random(DateTime.Now.Millisecond);
-            return rnd.Next();
+            return  pathToProgramm + " " + rnd.Next();
         }
     }
 }

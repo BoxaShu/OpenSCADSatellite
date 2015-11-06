@@ -10,7 +10,7 @@
         }
         
         //Функция запуска модуля
-        function Do(x, y)
+        function Do(pathToProgramm)
         {
             //По хорошему тут должны быть ссылка на запуск dll
             //или exe файла с необходимым расчетом.
@@ -19,7 +19,7 @@
             var commandtoRun = "C:\\Windows\\notepad.exe"; 
             oShell.ShellExecute(commandtoRun,"","","open","1");
             
-            return x + y;
+            //return x + y;
         }
     }
 }
